@@ -66,5 +66,15 @@ namespace Inventory_Management
         {
             openChildForm(new OrderForm());
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelHeader_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
