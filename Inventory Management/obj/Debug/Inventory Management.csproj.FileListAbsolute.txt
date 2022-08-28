@@ -1,0 +1,49 @@
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.csproj.AssemblyReference.cache
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.csproj.SuggestedBindingRedirects.cache
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.CategoryForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.CategoryModule.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.Form1.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.MainForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.OrderForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.ProductForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.Properties.Resources.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.UserForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.UserModuleForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.csproj.GenerateResource.cache
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.csproj.CoreCompileInputs.cache
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Inventory Management.exe.config
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Inventory Management.exe
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Inventory Management.pdb
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Google.Protobuf.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\MySql.Data.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\MySqlConnector.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Buffers.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Memory.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\ZstdNet.dll
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Google.Protobuf.pdb
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\Google.Protobuf.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\MySql.Data.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\MySqlConnector.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Buffers.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Memory.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.ProductModuleForm.resources
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.csproj.CopyComplete
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.exe
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.pdb
