@@ -24,8 +24,8 @@ namespace Inventory_Management
         private static ArrayList SellingPrice = new ArrayList();
         private static ArrayList CostPrice = new ArrayList();
 
-        string cs = "server=localhost;uid=root;pwd=;database=inventory_management";
-        string sqlStatement = "SELECT * FROM inventory_management.products";
+        string cs = "server=localhost;uid=root;pwd=;database= 'shoprite db'";
+        string sqlStatement = "SELECT * FROM products";
         public ProductForm()
         {
             InitializeComponent();

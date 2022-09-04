@@ -31,29 +31,29 @@
             this.panelMain = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelHeader = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btnUsers = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnOrders = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnCategories = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnProducts = new System.Windows.Forms.PictureBox();
+            this.btnOrders = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnUsers = new System.Windows.Forms.PictureBox();
+            this.btnCategories = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panelHeader = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panelMain.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panelHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnUsers)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnOrders)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCategories)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnProducts)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnProducts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnOrders)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnUsers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCategories)).BeginInit();
+            this.panelHeader.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMain
@@ -63,7 +63,7 @@
             this.panelMain.Location = new System.Drawing.Point(0, 0);
             this.panelMain.Margin = new System.Windows.Forms.Padding(4);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1144, 490);
+            this.panelMain.Size = new System.Drawing.Size(1264, 703);
             this.panelMain.TabIndex = 3;
             // 
             // panel1
@@ -75,7 +75,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1144, 490);
+            this.panel1.Size = new System.Drawing.Size(1264, 703);
             this.panel1.TabIndex = 3;
             // 
             // panel2
@@ -85,44 +85,25 @@
             this.panel2.Location = new System.Drawing.Point(0, 81);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1144, 388);
+            this.panel2.Size = new System.Drawing.Size(1264, 601);
             this.panel2.TabIndex = 5;
             // 
-            // panelHeader
+            // panel4
             // 
-            this.panelHeader.BackColor = System.Drawing.Color.White;
-            this.panelHeader.Controls.Add(this.label3);
-            this.panelHeader.Controls.Add(this.label1);
-            this.panelHeader.Controls.Add(this.label2);
-            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(0, 0);
-            this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
-            this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1144, 81);
-            this.panelHeader.TabIndex = 3;
-            this.panelHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHeader_Paint_1);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(100)))), ((int)(((byte)(169)))));
-            this.label7.Location = new System.Drawing.Point(111, 214);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 16);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Users";
-            // 
-            // btnUsers
-            // 
-            this.btnUsers.Image = global::Inventory_Management.Properties.Resources.purchase_order_96px;
-            this.btnUsers.Location = new System.Drawing.Point(32, 202);
-            this.btnUsers.Margin = new System.Windows.Forms.Padding(4);
-            this.btnUsers.Name = "btnUsers";
-            this.btnUsers.Size = new System.Drawing.Size(55, 46);
-            this.btnUsers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnUsers.TabIndex = 12;
-            this.btnUsers.TabStop = false;
+            this.panel4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label7);
+            this.panel4.Controls.Add(this.btnProducts);
+            this.panel4.Controls.Add(this.btnOrders);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.btnUsers);
+            this.panel4.Controls.Add(this.btnCategories);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(216, 601);
+            this.panel4.TabIndex = 0;
             // 
             // label6
             // 
@@ -135,6 +116,29 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Orders";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(100)))), ((int)(((byte)(169)))));
+            this.label7.Location = new System.Drawing.Point(111, 214);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 16);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Users";
+            // 
+            // btnProducts
+            // 
+            this.btnProducts.Image = global::Inventory_Management.Properties.Resources.trolley_96px1;
+            this.btnProducts.Location = new System.Drawing.Point(32, 8);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(55, 46);
+            this.btnProducts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnProducts.TabIndex = 3;
+            this.btnProducts.TabStop = false;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
+            // 
             // btnOrders
             // 
             this.btnOrders.Image = global::Inventory_Management.Properties.Resources.user_96px;
@@ -145,28 +149,7 @@
             this.btnOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnOrders.TabIndex = 10;
             this.btnOrders.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(100)))), ((int)(((byte)(169)))));
-            this.label5.Location = new System.Drawing.Point(111, 121);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Categories";
-            // 
-            // btnCategories
-            // 
-            this.btnCategories.Image = global::Inventory_Management.Properties.Resources.categorize_96px;
-            this.btnCategories.Location = new System.Drawing.Point(32, 102);
-            this.btnCategories.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCategories.Name = "btnCategories";
-            this.btnCategories.Size = new System.Drawing.Size(55, 46);
-            this.btnCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnCategories.TabIndex = 8;
-            this.btnCategories.TabStop = false;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             // 
             // label4
             // 
@@ -179,16 +162,54 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Products";
             // 
-            // btnProducts
+            // btnUsers
             // 
-            this.btnProducts.Image = global::Inventory_Management.Properties.Resources.trolley_96px1;
-            this.btnProducts.Location = new System.Drawing.Point(32, 8);
-            this.btnProducts.Margin = new System.Windows.Forms.Padding(4);
-            this.btnProducts.Name = "btnProducts";
-            this.btnProducts.Size = new System.Drawing.Size(55, 46);
-            this.btnProducts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnProducts.TabIndex = 3;
-            this.btnProducts.TabStop = false;
+            this.btnUsers.Image = global::Inventory_Management.Properties.Resources.purchase_order_96px;
+            this.btnUsers.Location = new System.Drawing.Point(32, 202);
+            this.btnUsers.Margin = new System.Windows.Forms.Padding(4);
+            this.btnUsers.Name = "btnUsers";
+            this.btnUsers.Size = new System.Drawing.Size(55, 46);
+            this.btnUsers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnUsers.TabIndex = 12;
+            this.btnUsers.TabStop = false;
+            this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
+            // 
+            // btnCategories
+            // 
+            this.btnCategories.Image = global::Inventory_Management.Properties.Resources.categorize_96px;
+            this.btnCategories.Location = new System.Drawing.Point(32, 102);
+            this.btnCategories.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCategories.Name = "btnCategories";
+            this.btnCategories.Size = new System.Drawing.Size(55, 46);
+            this.btnCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnCategories.TabIndex = 8;
+            this.btnCategories.TabStop = false;
+            this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click_1);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(100)))), ((int)(((byte)(169)))));
+            this.label5.Location = new System.Drawing.Point(111, 121);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Categories";
+            // 
+            // panelHeader
+            // 
+            this.panelHeader.BackColor = System.Drawing.Color.White;
+            this.panelHeader.Controls.Add(this.label3);
+            this.panelHeader.Controls.Add(this.label1);
+            this.panelHeader.Controls.Add(this.label2);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(0, 0);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(1264, 81);
+            this.panelHeader.TabIndex = 3;
+            this.panelHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHeader_Paint_1);
             // 
             // label3
             // 
@@ -233,48 +254,31 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(100)))), ((int)(((byte)(169)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 469);
+            this.panel3.Location = new System.Drawing.Point(0, 682);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1144, 21);
+            this.panel3.Size = new System.Drawing.Size(1264, 21);
             this.panel3.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.btnProducts);
-            this.panel4.Controls.Add(this.btnOrders);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.btnUsers);
-            this.panel4.Controls.Add(this.btnCategories);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(216, 388);
-            this.panel4.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1144, 490);
+            this.ClientSize = new System.Drawing.Size(1264, 703);
             this.Controls.Add(this.panelMain);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.panelMain.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panelHeader.ResumeLayout(false);
-            this.panelHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnUsers)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnOrders)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCategories)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnProducts)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnProducts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnOrders)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnUsers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCategories)).EndInit();
+            this.panelHeader.ResumeLayout(false);
+            this.panelHeader.PerformLayout();
             this.ResumeLayout(false);
 
         }

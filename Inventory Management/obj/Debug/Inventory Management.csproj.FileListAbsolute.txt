@@ -47,3 +47,4 @@ C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inven
 C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.csproj.CopyComplete
 C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.exe
 C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory Management.pdb
+C:\Users\Psalm\Desktop\Inventory Management\Inventory Management\obj\Debug\Inventory_Management.AttendantMainform.resources

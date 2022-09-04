@@ -42,30 +42,6 @@ namespace Inventory_Management
 
         }
 
-        private void panelHeader_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            openChildForm(new ProductForm());
-        }
-
-        private void btnUsers_Click(object sender, EventArgs e)
-        {
-            openChildForm(new UserForm());
-        }
-
-        private void btnCategories_Click(object sender, EventArgs e)
-        {
-            openChildForm(new CategoryForm());
-        }
-
-        private void btnOrders_Click(object sender, EventArgs e)
-        {
-            openChildForm(new OrderForm());
-        }
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -75,6 +51,28 @@ namespace Inventory_Management
         private void panelHeader_Paint_1(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ProductForm());
+
+        }
+
+        private void btnCategories_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new CategoryForm());
+            
+        }
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            openChildForm(new UserForm());
+        }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            openChildForm(new OrderForm()); 
         }
     }
 }

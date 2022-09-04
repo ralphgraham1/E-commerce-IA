@@ -113,6 +113,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttendantMainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendantMainform.Designer.cs">
+      <DependentUpon>AttendantMainform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Category Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     <Compile Include="UserModuleForm.Designer.cs">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AttendantMainform.resx">
+      <DependentUpon>AttendantMainform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Category Form.resx">
       <DependentUpon>Category Form.cs</DependentUpon>
     </EmbeddedResource>
