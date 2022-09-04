@@ -119,6 +119,12 @@
     <Compile Include="AttendantMainform.Designer.cs">
       <DependentUpon>AttendantMainform.cs</DependentUpon>
     </Compile>
+    <Compile Include="AttendantProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendantProductForm.Designer.cs">
+      <DependentUpon>AttendantProductForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Category Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </Compile>
     <EmbeddedResource Include="AttendantMainform.resx">
       <DependentUpon>AttendantMainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendantProductForm.resx">
+      <DependentUpon>AttendantProductForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Category Form.resx">
       <DependentUpon>Category Form.cs</DependentUpon>

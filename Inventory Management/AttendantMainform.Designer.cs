@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.textDate = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,7 +50,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.btnProducts = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
@@ -197,6 +196,7 @@
             this.textQuantity.Name = "textQuantity";
             this.textQuantity.Size = new System.Drawing.Size(148, 22);
             this.textQuantity.TabIndex = 24;
+            this.textQuantity.ValueChanged += new System.EventHandler(this.textQuantity_ValueChanged);
             // 
             // button2
             // 
@@ -223,6 +223,7 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "Add to Cart";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label12
             // 
@@ -235,6 +236,7 @@
             this.label12.Size = new System.Drawing.Size(96, 25);
             this.label12.TabIndex = 21;
             this.label12.Text = "Quantity :";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
@@ -328,19 +330,6 @@
             this.label3.Text = "INVENTORY MANAGEMENT SYSTEM";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(4, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 105);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "S";
-            // 
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.White;
@@ -352,7 +341,6 @@
             this.panelHeader.Controls.Add(this.btnProducts);
             this.panelHeader.Controls.Add(this.label3);
             this.panelHeader.Controls.Add(this.label1);
-            this.panelHeader.Controls.Add(this.label2);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
@@ -364,15 +352,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("MV Boli", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(82, 47);
+            this.label1.Location = new System.Drawing.Point(17, 40);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 34);
+            this.label1.Size = new System.Drawing.Size(163, 45);
             this.label1.TabIndex = 2;
-            this.label1.Text = "hoprite";
+            this.label1.Text = "Shoprite";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Delete
             // 
@@ -456,14 +444,14 @@
             // 
             this.dataGridCart.AllowUserToAddRows = false;
             this.dataGridCart.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridCart.ColumnHeadersHeight = 30;
             this.dataGridCart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridCart.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -531,7 +519,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox btnProducts;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelHeader;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewImageColumn Delete;

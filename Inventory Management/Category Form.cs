@@ -20,7 +20,7 @@ namespace Inventory_Management
         private static ArrayList CategoryName = new ArrayList();
         private static ArrayList CategoryDescription = new ArrayList();
 
-        string cs = "server=localhost;uid=root;pwd=;database=shoprite db";
+        string cs = "server=localhost;uid=root;pwd=;database='shoprite db'";
         string sqlStatement = "SELECT * FROM 'shoprite db'.category";
         public CategoryForm()
         {
